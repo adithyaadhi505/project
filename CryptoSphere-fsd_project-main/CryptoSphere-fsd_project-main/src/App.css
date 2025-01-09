@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+#crypto-logo {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+canvas {
+  border: 1px solid #ccc;
+}
